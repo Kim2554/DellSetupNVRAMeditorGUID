@@ -111,19 +111,17 @@ The tool therefore operates on the **NVRAM variables themselves**, rather than d
 
 ---
 
-## ⚠️ Important: This Is Not a Normal BIOS Editor
+## ⚠️ Important: This Is Not a BIOS ROM Editor
 
-This tool does **not** simply modify a BIOS ROM file.
+This tool does **not modify or flash the BIOS firmware image**.
 
-It directly interacts with firmware variables stored by the platform.
+Instead, it reads and writes **UEFI variables stored in the system's NVRAM** using the UEFI Runtime Services `GetVariable()` and `SetVariable()`.
 
-Changes may therefore persist across:
+The variables may contain settings used by the system firmware, including Setup/BIOS configuration values.
 
-* Reboots
-* Power cycles
-* BIOS Setup sessions
+If a variable has the **Non-Volatile (NV)** attribute, changes written successfully by `SetVariable()` are intended to persist across system resets and power cycles. However, the actual behavior depends on the variable attributes and the platform firmware. :contentReference[oaicite:0]{index=0}
 
-UEFI defines the `NV` attribute for variables whose values persist across resets and power cycles.
+This means that changing a variable can affect the system's firmware configuration even though the BIOS ROM itself is not modified.
 
 ---
 

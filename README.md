@@ -258,3 +258,14 @@ The author is not responsible for:
 * Hardware damage
 * Loss of BIOS functionality
 * Any other damage resulting from the use of this software
+
+  ## Controls
+
+| Key | Action |
+|---|---|
+| `↑ / ↓` | Navigate |
+| `← / →` | Change value |
+| `Enter` | Edit / Select |
+| `Esc` | Back |
+| `F9` | Reload |
+| `F10` | Save to NVRAM |

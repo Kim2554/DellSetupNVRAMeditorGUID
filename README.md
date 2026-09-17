@@ -5,7 +5,7 @@ Experimental UEFI tool for viewing and editing Dell Setup NVRAM variables, devel
 
 # Dell Setup NVRAM Editor
 
-> ⚠️ **EXPERIMENTAL / TEST VERSION — NOT 100% WORKING**
+>  **EXPERIMENTAL / TEST VERSION — NOT 100% WORKING**
 
 A UEFI utility for viewing and editing **Setup NVRAM variables** directly from the UEFI environment.
 
@@ -15,7 +15,7 @@ The project is experimental and is **not intended to be considered a finished or
 
 ---
 
-## 🎯 Project Purpose
+##  Project Purpose
 
 The main purpose of this project is to provide access to hidden or normally inaccessible **Intel Advanced BIOS settings** through their underlying UEFI NVRAM variables.
 
@@ -31,7 +31,7 @@ Compatibility with other BIOS versions and systems is not guaranteed.
 
 ---
 
-## ✨ Features
+##  Features
 
 The tool can:
 
@@ -58,7 +58,7 @@ The exact settings available depend on the firmware and the VarStores exposed by
 
 ---
 
-## 🧩 Intel Advanced Settings
+##  Intel Advanced Settings
 
 Depending on the firmware, the underlying variables may include settings related to areas such as:
 
@@ -89,7 +89,7 @@ The tool does not automatically make every Intel feature functional. A firmware 
 
 ---
 
-## 💾 NVRAM Access
+##  NVRAM Access
 
 The tool accesses UEFI variables using UEFI Runtime Services.
 
@@ -111,7 +111,7 @@ The tool therefore operates on the **NVRAM variables themselves**, rather than d
 
 ---
 
-## ⚠️ Important: This Is Not a BIOS ROM Editor
+##  Important: This Is Not a BIOS ROM Editor
 
 This tool does **not modify or flash the BIOS firmware image**.
 
@@ -125,7 +125,7 @@ This means that changing a variable can affect the system's firmware configurati
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 Directly changing an NVRAM variable is not necessarily equivalent to changing the same setting through the manufacturer's BIOS interface.
 
@@ -147,7 +147,7 @@ Therefore:
 
 ---
 
-## ⚠️ Compatibility
+##  Compatibility
 
 ### Primary Test System
 
@@ -174,7 +174,7 @@ Even identical variable names or offsets do not guarantee identical behavior bet
 
 ---
 
-# 🚨 WARNING — USE AT YOUR OWN RISK
+#  WARNING — USE AT YOUR OWN RISK
 
 Incorrect NVRAM values can cause serious firmware problems.
 
@@ -197,7 +197,7 @@ A writable variable is not necessarily a safe variable.
 
 ---
 
-## 🛡️ Recommended Procedure
+##  Recommended Procedure
 
 Before experimenting:
 
@@ -215,7 +215,7 @@ Avoid changing multiple unknown variables at once.
 
 ---
 
-## 🧪 Project Status
+##  Project Status
 
 **Experimental / Work in Progress**
 
@@ -229,7 +229,7 @@ Unexpected behavior should be expected during development.
 
 ---
 
-## ❗ Important Notice
+##  Important Notice
 
 This project was created specifically as an experimental way to access and modify the underlying NVRAM configuration used by hidden **Intel Advanced BIOS settings** on the Dell Inspiron 15 3511.
 

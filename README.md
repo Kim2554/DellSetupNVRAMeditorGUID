@@ -267,3 +267,30 @@ The author is not responsible for:
 | `Esc` | Back |
 | `F9` | Reload |
 | `F10` | Save to NVRAM |
+
+## Project Status
+
+This project is an experimental/test release.
+
+Development may not continue after this release, and no future versions or updates are guaranteed.
+
+The current release is provided as-is for testing, research, and experimentation.
+
+
+```md
+## Build
+
+```bash
+chmod +x build.sh
+./build.sh
+```
+
+Requirements
+
+clang
+
+lld-link
+
+The build script compiles the source and generates:
+
+EFI/BOOT/BOOTX64.EFI

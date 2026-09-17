@@ -3,7 +3,7 @@ Experimental UEFI tool for viewing and editing Dell Setup NVRAM variables, devel
 
 
 
-# Dell 3511 Setup NVRAM Editor
+# Dell Setup NVRAM Editor
 
 > ⚠️ **EXPERIMENTAL / TEST VERSION — NOT 100% WORKING**
 
